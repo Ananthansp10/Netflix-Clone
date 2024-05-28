@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#111;
+}
+
+.navbar-left {
+    flex: 0;
+}
+
+.navbar-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.navbar-left .logo {
+    height: 40px;
+    margin-left: 30px;
+}
+
+.text-white {
+    margin: 0 20px 0 0;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.join-now {
+    background-color: red;
+    color: white;
+}
+
+button.sign-up {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-white {
+        font-size: 14px;
+    }
+
+    .navbar-left .logo {
+        height: 30px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}

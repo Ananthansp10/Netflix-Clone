@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+}
+.logo{
+    width: 130px;
+}
+.backbutton {
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 580px;
+}
+
+@media (min-width: 200px) and (max-width: 399px) {
+    .backbutton {
+        margin-left: 115px;
+    }
+}
+
+
+@media (min-width: 413px) and (max-width: 480px) {
+    .backbutton {
+        margin-left: 150px;
+    }
+}
+@media (min-width: 400px) and (max-width: 412px) {
+    .backbutton {
+        margin-left: 140px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .backbutton {
+        margin-left: 200px;
+    }
+}
+@media (min-width: 768px) and (max-width: 769px) {
+    .backbutton {
+        margin-left: 283px;
+    }
+}
+
+
+@media (min-width: 770px) and (max-width: 820px) {
+    .backbutton {
+        margin-left: 305px;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+    .backbutton {
+        margin-left: 420px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1277px) {
+    .backbutton {
+        margin-left: 425px;
+    }
+}
+@media (min-width: 1278px) and (max-width: 1280px) {
+    .backbutton {
+        margin-left: 510px;
+    }
+}
