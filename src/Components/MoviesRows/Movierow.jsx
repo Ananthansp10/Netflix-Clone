@@ -12,7 +12,7 @@ function Movierow(props) {
       console.log(response.data.results)
       setMovie(response.data.results)
     })
-  },[])
+  },[props.url])
 
   function handlemovie(Id){
     axios.get(`/movie/${Id}/videos?api_key=${process.env.REACT_APP_API_KEY}`).then((response=>{

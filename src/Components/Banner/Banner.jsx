@@ -9,7 +9,7 @@ function Banner({url}) {
       let randnum = Math.floor(Math.random() * 20);
       setMovie(response.data.results[randnum])
     })
-  },[])
+  },[url])
   return (
     <div>
         <div className='row'>
